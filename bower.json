@@ -1,0 +1,23 @@
+{
+  "name": "ng-proj",
+  "description": "ng-proj-sample",
+  "main": "index.js",
+  "authors": [
+    "Swaroop"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/swaroopjayanthi9/ng-proj",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test",
+    "tests",
+    "bower_components",
+    "/app/bower_components"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
