@@ -51,3 +51,10 @@ For Project specific configurations:
        project-name$ bower install jquery angular angular-animate --save
 
 
+Install if problem persists for Node NPM version follow the link
+http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+        sudo npm cache clean -f
+        sudo npm install -g n
+        sudo n stable
+
+        sudo ln -sf /usr/local/n/versions/node/<VERSION>/bin/node /usr/bin/node

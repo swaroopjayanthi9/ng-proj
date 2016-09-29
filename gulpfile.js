@@ -2,10 +2,8 @@
 
 var gulp = require('gulp');
 
-var connect = require('gulp-connect')
+require('require-dir')('./gulp');
 
-require('require-dir')('./gulp);
-
-gulp.task('default', ['clean','Erase'],function() {
+gulp.task('default', ['clean'], function () {
     gulp.start('server');
 });

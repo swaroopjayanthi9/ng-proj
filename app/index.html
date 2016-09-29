@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>EK Service</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="images/icons/logos/favicon.ico?v=1">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/icons/logos/favicon.ico?v=2">
+  <link rel="stylesheet" type="text/css" href="bower_components/angular-dragula/dist/dragula.css">
+  <!-- endbuild -->
+  <!-- build:css styles/app.css -->
+  <link rel="stylesheet" type="text/css" href="styles/app.css">
+  <!-- plugins:css -->
+  <!-- endinject -->
+  <!-- endbuild -->
+  <!-- locales:json -->
+  <!-- endinject -->
+</head>
+
+<body  id="parent_body" ng-strict-di>
+<div id="wrap">
+  <div id="main">
+     Welcome to EK Service
+      <div class="container"  id="mainContainer">
+          <div>
+
+          </div>
+          <div class="row">
+
+            <div class="col-md-12 main-body">
+              <h2 class="pageTitle" ng-bind="$root.pageTitle | translate"></h2>
+              <ng-view></ng-view>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    <!--</div>-->
+
+
+      </div>   <!-- End of Main -->
+       <!--  End of Wrap -->
+
+
+<div class="main-footer" style="display:none">
+   This is for EKService
+</div>
+
+<!-- build:jslib scripts/lib.js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!-- bower:js -->
+<!-- endinject -->
+<script src="bower_components/moment/locale/en-au.js"></script>
+<script src="bower_components/moment/locale/en-ca.js"></script>
+<script src="bower_components/moment/locale/ja.js"></script>
+<script src="bower_components/moment/locale/zh-cn.js"></script>
+<script src="bower_components/moment/locale/zh-tw.js"></script>
+<script src="bower_components/moment/locale/en-gb.js"></script>
+<script src="bower_components/flot/jquery.flot.pie.js"></script>
+<script src="bower_components/flot/jquery.flot.time.js"></script>
+<script src="bower_components/flot/jquery.flot.selection.js"></script>
+<script src="bower_components/flot/jquery.flot.fillbetween.js"></script>
+<script src="bower_components/flot/jquery.flot.stack.js"></script>
+<script src="bower_components/lodash/dist/lodash.js"></script>
+<script src="bower_components/angular-dragula/dist/angular-dragula.js"></script>
+<script src="bower_components/object-hash/dist/object_hash.js"></script>
+<!-- endbuild -->
+<!-- build:js scripts/app.js -->
+<script src="scripts/templates.js"></script>
+<!-- endbuild -->
+</body>
+</html>

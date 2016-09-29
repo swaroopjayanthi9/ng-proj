@@ -1,0 +1,28 @@
+{
+  "user_registration_data": {
+    "username": "sadguru",
+    "password": "password1",
+    "user_type": "individual",
+    "mobile": "9632969969",
+    "mailid":"swaroop.jayanthi@gmail.com"
+  },
+  "loggedin_user_data": {
+    "username": "sadguru",
+    "password": "password1",
+    "user_type": "individual",
+    "mobile": "919632969969",
+    "token":"666123E30636B0A4EA5AB34CB5BBBFDA",
+    "mailid":"swaroop.jayanthi@gmail.com",
+    "is_verifid":"true"
+  },
+
+  "product_data": [
+    {
+      "id" :1,
+      "name":"abc"
+    }
+  ]
+
+
+
+}

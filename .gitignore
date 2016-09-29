@@ -15,4 +15,3 @@ dist
 dist*
 .metadata
 *.tar.gz
-.htmlhintrc
